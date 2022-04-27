@@ -6,7 +6,7 @@
 
 .topo1 { 
     text-align: center;
-    background-color: #dcafac;
+    background-color: var(--primary);
   }
   
   .textotopo1 {
@@ -19,19 +19,15 @@
   }
   
   .text-cor {
-    background-color: #dcafac;
+    background-color: var(--primary);
   }
   
   .fontes {
     font-family: 'Cinzel', serif;
   }
   
-  .conteudoNosso {
-    padding-top: 120px;
+  .nossosProdutosTitulo {
+    padding-top: 70px;
+    padding-bottom: 70px;
   }
-  
-  .conteudo {
-  
-  }
-  
-  
+

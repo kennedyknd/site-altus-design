@@ -7,3 +7,11 @@
 #header .navbar-collapse {
     width: auto;
 }
+
+#header .nav-link {
+    border-bottom: solid 2px transparent;
+}
+
+#header .nav-link:hover{
+    border-bottom: solid 2px var(--primary);
+}
