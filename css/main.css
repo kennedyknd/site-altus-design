@@ -1,0 +1,37 @@
+@import url(./bootstrap.min.css);
+@import url(./config.css);
+@import url(./global.css);
+@import url(./custom.css);
+@import url(./responsive.css);
+
+.topo1 { 
+    text-align: center;
+    background-color: #dcafac;
+  }
+  
+  .textotopo1 {
+    color: white;
+  }
+  
+  .menu-principal {
+    margin: auto;
+    display: block;
+  }
+  
+  .text-cor {
+    background-color: #dcafac;
+  }
+  
+  .fontes {
+    font-family: 'Cinzel', serif;
+  }
+  
+  .conteudoNosso {
+    padding-top: 120px;
+  }
+  
+  .conteudo {
+  
+  }
+  
+  

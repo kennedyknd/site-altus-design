@@ -1,0 +1,9 @@
+#header {
+    width: 100%;
+    background-color: white;
+    transition: background ease-out 0.2s;
+}
+
+#header .navbar-collapse {
+    width: auto;
+}
