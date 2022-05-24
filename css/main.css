@@ -4,30 +4,63 @@
 @import url(./custom.css);
 @import url(./responsive.css);
 
-.topo1 { 
-    text-align: center;
-    background-color: var(--primary);
-  }
-  
-  .textotopo1 {
-    color: white;
-  }
-  
-  .menu-principal {
-    margin: auto;
-    display: block;
-  }
-  
-  .text-cor {
-    background-color: var(--primary);
-  }
-  
-  .fontes {
-    font-family: 'Cinzel', serif;
-  }
-  
-  .nossosProdutosTitulo {
-    padding-top: 70px;
-    padding-bottom: 70px;
-  }
+#houver:hover{
+  border-bottom: solid 2px var(--primary);
+}
 
+.topo1 {
+  text-align: center;
+  background-color: var(--primary);
+}
+
+.textotopo1 {
+  color: white;
+}
+
+.menu-principal {
+  margin: auto;
+  display: block;
+}
+
+.text-cor {
+  background-color: var(--primary);
+}
+
+.fontes {
+  font-family: 'Cinzel', serif;
+}
+
+.nossosProdutosTitulo {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.espaco {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.hover:hover {
+  opacity: 0.7;
+}
+
+.global-page-container {
+	width: 80%;
+	display: inline-block;
+  margin: auto;
+  height: 80%;
+}
+
+.slide {
+  text-align: center;
+  transform: scale(0.9);
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.produtos {
+  transform: scale(0.99);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; 
+}
