@@ -45,4 +45,20 @@ $(function(){
     ]
   });
 
+  $('.autoplay3').slick({
+    dots: true,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        }
+      }
+    ]
+  });
+
 })
