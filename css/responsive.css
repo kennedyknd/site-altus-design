@@ -1,5 +1,5 @@
 /* Responsivo Celular */
-@media (max-width: 780px) {
+@media (max-width: 500px) {
 
     .bemVindaImagem {
         margin-top: 40px;
@@ -32,6 +32,25 @@
 
     .descricaoSobreNos {
         font-size: 17px;
+    }
+
+}
+
+/* Responsivo Tablet */
+@media (max-width: 780px) and (min-width: 501px) {
+
+    .bemVindaImagem {
+        margin-top: 40px;
+        background: url(../imagens/sobreNosTablet.png);
+        background-size: cover; width: 100%;
+    }
+
+    .BemVindaTexto {
+        margin-bottom: 300px;
+    }
+
+    .descricaoSobreNos {
+        font-size: 14px;
     }
 
 }
