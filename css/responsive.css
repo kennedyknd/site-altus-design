@@ -1,17 +1,23 @@
+/* Responsivo Celular */
 @media (max-width: 780px) {
 
     .bemVindaImagem {
-        background: url(../imagens/fotoNossaPequena.jpg);
+        margin-top: 40px;
+        background: url(../imagens/sobreNosCelular.png);
         background-size: cover; width: 100%;
     }
 
     .BemVindaTexto {
-        margin-top: 150px; 
-        margin-bottom: 150px;
+        margin-bottom: 300px;
+    }
+
+    .descricaoSobreNos {
+        font-size: 13px;
     }
 
 }
 
+/* Responsivo Computador */
 @media (min-width: 781px){
 
     .bemVindaImagem {
@@ -24,10 +30,8 @@
         margin-bottom: 150px;
     }
 
-}
-
-@media (max-width: 1200px) {
-
-    
+    .descricaoSobreNos {
+        font-size: 17px;
+    }
 
 }
