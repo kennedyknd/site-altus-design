@@ -4,28 +4,6 @@
 @import url(./custom.css);
 @import url(./responsive.css);
 
-#houver:hover{
-  border-bottom: solid 2px var(--primary);
-}
-
-.topo1 {
-  text-align: center;
-  background-color: var(--primary);
-}
-
-.textotopo1 {
-  color: white;
-}
-
-.menu-principal {
-  margin: auto;
-  display: block;
-}
-
-.text-cor {
-  background-color: var(--primary);
-}
-
 .fonteCinzel {
   font-family: 'Cinzel', serif;
 }
@@ -33,11 +11,6 @@
 .nossosProdutosTitulo {
   padding-top: 30px;
   padding-bottom: 30px;
-}
-
-.espaco {
-  padding-top: 40px;
-  padding-bottom: 40px;
 }
 
 .hover:hover {

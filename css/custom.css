@@ -15,3 +15,7 @@
 #header .nav-link:hover{
     border-bottom: solid 2px var(--primary);
 }
+
+#houver:hover{
+    border-bottom: solid 2px var(--primary);
+}

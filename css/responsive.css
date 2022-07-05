@@ -1,3 +1,33 @@
-@media (max-width: 991.98px) {
+@media (max-width: 780px) {
+
+    .bemVindaImagem {
+        background: url(../imagens/fotoNossaPequena.jpg);
+        background-size: cover; width: 100%;
+    }
+
+    .BemVindaTexto {
+        margin-top: 150px; 
+        margin-bottom: 150px;
+    }
+
+}
+
+@media (min-width: 781px){
+
+    .bemVindaImagem {
+        background: url(../imagens/sobreNosFoto.png);
+        background-size: cover; width: 100%;
+    }
+
+    .BemVindaTexto {
+        margin-top: 150px; 
+        margin-bottom: 150px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
     
+
 }
