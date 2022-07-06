@@ -22,12 +22,13 @@
 
     .bemVindaImagem {
         background: url(../imagens/sobreNosFoto.png);
-        background-size: cover; width: 100%;
+        background-size: cover; 
+        width: 100%;
     }
 
     .BemVindaTexto {
-        margin-top: 150px; 
-        margin-bottom: 150px;
+        margin-top: 200px; 
+        margin-bottom: 200px;
     }
 
     .descricaoSobreNos {
@@ -51,6 +52,30 @@
 
     .descricaoSobreNos {
         font-size: 14px;
+    }
+
+}
+
+/* Responsivo outro */
+@media (min-width: 781px) and (max-width: 970px) {
+
+    .bemVindaImagem {
+        background: url(../imagens/fotoNossa2.png);
+        background-size: cover; width: 100%;
+    }
+
+    .BemVindaTexto {
+        margin-bottom: 120px;
+        margin-top: 120px;
+    }
+
+}
+
+/* Responsivo navbar */
+@media (max-width: 767px) {
+
+    #desaparecer {
+        display: none;
     }
 
 }
